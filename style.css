@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.body{
+display: grid;
+grid-template-areas:
+"cabecalho cabecalho"
+"hero hero"
+"subhero subhero"
+"sobrenos sobrenos"
+"quote quote"
+"about about"
+"contato contato"
+"footer footer";
+grid-template-columns: 50% 50%;
+background-color: #97C7DC;
+}
+
+.cabecalho, .hero, .subhero, .sobrenos, .about, .contato, footer {
+    display:flex;
+}
+
+.subhero, .sobrenos, .quote, .about, .contato {
+    margin: 20px auto 20px;
+}
+
+.hero, .image1, .subhero, .image2, .sobrenos, .quote, .about, .image3, .contato {
+    width: 90%;
+}
+
+
+.cabecalho, .quote, .contato {
+    padding: 20px;
+}
+
+.cabecalho, footer {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #243757;
+    color: #FFF;
+    width: 100%;
+   
+}
+.cabecalho{
+    grid-area: cabecalho;
+    position: fixed;
+    height: 10vh;
+}
+
+.hero, .subhero, .sobrenos, .quote, .about, .contato {
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.hero{
+    grid-area:hero;
+    height:600px;
+    margin: 100px auto 20px; /*pesquisar como fazer ele começar a partir do cabeçalho*/
+    height: 80vh;
+}
+
+
+.image1, .image2, .image3 {
+    object-fit: cover;
+}
+
+.image1{
+    height:80vh;
+    object-position: 100% 100%;
+}
+
+.image2{
+    height: 60vh;
+}
+
+.image3{
+    height: 300px;
+}
+
+
+.subhero{
+    grid-area: subhero;
+    height: 70vh;
+}
+
+.sobrenos{
+    grid-area: sobrenos;
+    background: url(assets/image7.jpeg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 80vh;
+    padding: 50px;
+    width: 90%;
+}
+
+.quote{
+    grid-area: quote;
+    height: 30vh;
+    align-items: center;
+    padding: 30 auto 30;
+}
+
+.about{
+    grid-area:about;
+    height: 60vh;
+}
+
+.contato{
+    grid-area: contato;
+    height:40vh;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.contato1 .button{
+    background-color: #3A5F6F;
+    color: #FFFFFF;
+}
+
+footer{
+    grid-area: footer;
+    height: 10vh;
+    font-weight: bold;
+}
+
+footer .a {
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
+
+
+h1, h2, h3{
+    color: #243757;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    width:200px;
+    height:50px;
+}
+
+ul {
+    list-style: none;
+}

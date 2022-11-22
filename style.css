@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    text-align: center;
+    /*text-align: center;*/
     width:100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;;
     
 }
 
@@ -31,7 +31,7 @@ background-color: #97C7DC;
 }
 
 .hero, .image1, .subhero, .image2, .sobrenos, .quote, .about, .image3, .contato {
-    width: 90%;
+    width: 85%;
 }
 
 
@@ -59,12 +59,17 @@ background-color: #97C7DC;
 }
 
 .hero{
-    grid-area:hero;
-    height:600px;
-    margin: 100px auto 20px; /*pesquisar como fazer ele começar a partir do cabeçalho*/
+    grid-area: hero;
+    margin: 150px auto 20px; 
     height: 80vh;
 }
 
+.hero2{
+    text-align: left;
+    padding-right: 80px;
+    padding-left: 0;
+    
+}
 
 .image1, .image2, .image3 {
     object-fit: cover;
@@ -80,13 +85,14 @@ background-color: #97C7DC;
 }
 
 .image3{
-    height: 300px;
+    height: 60vh;
 }
 
 
 .subhero{
     grid-area: subhero;
     height: 70vh;
+  
 }
 
 .sobrenos{
@@ -96,7 +102,7 @@ background-color: #97C7DC;
     background-position: center;
     height: 80vh;
     padding: 50px;
-    width: 90%;
+    width: 85%;
 }
 
 .quote{
@@ -104,6 +110,7 @@ background-color: #97C7DC;
     height: 30vh;
     align-items: center;
     padding: 30 auto 30;
+    text-align: center;
 }
 
 .about{
@@ -129,11 +136,31 @@ footer{
     font-weight: bold;
 }
 
-footer .a {
+footer a {
     text-decoration: none;
     color:#FFFFFF;
+    font-size: 30px;
 
 }
+
+.hero2 button, .contato2 button {
+    background-color: #3A5F6F;
+    color: #FFF;
+    border: none;
+    font-size: 30px;
+}
+
+.sobrenos button {
+    border: solid #FFF;
+    color: #FFF;
+    background: transparent;
+    font-size: 30px;
+}
+
+.about ul{
+    font-size: 20px;
+}
+
 
 
 h1, h2, h3{
@@ -158,9 +185,11 @@ p{
 
 button{
     width:200px;
-    height:50px;
+    height:80px;
+    border-radius: 20px;
 }
 
 ul {
     list-style: none;
 }
+

@@ -4,7 +4,6 @@
     /*text-align: center;*/
     width:100%;
     font-family: 'Roboto Slab', serif;;
-    
 }
 
 .body{
@@ -34,7 +33,6 @@ background-color: #97C7DC;
     width: 85%;
 }
 
-
 .cabecalho, .quote, .contato {
     padding: 20px;
 }
@@ -45,12 +43,24 @@ background-color: #97C7DC;
     background-color: #243757;
     color: #FFF;
     width: 100%;
-   
 }
+
 .cabecalho{
     grid-area: cabecalho;
     position: fixed;
     height: 10vh;
+}
+
+.cabecalho p {
+    font-size: 40px;
+}
+
+.cabecalho a {
+text-decoration: none;
+text-align: right;
+color: #FFF;
+padding: 20px;
+font-size: 30px;
 }
 
 .hero, .subhero, .sobrenos, .quote, .about, .contato {
@@ -88,11 +98,9 @@ background-color: #97C7DC;
     height: 60vh;
 }
 
-
 .subhero{
     grid-area: subhero;
     height: 70vh;
-  
 }
 
 .sobrenos{
@@ -116,6 +124,7 @@ background-color: #97C7DC;
 .about{
     grid-area:about;
     height: 60vh;
+    text-align: center;
 }
 
 .contato{
@@ -125,15 +134,12 @@ background-color: #97C7DC;
     text-align: left;
 }
 
-.contato1 .button{
-    background-color: #3A5F6F;
-    color: #FFFFFF;
-}
-
 footer{
     grid-area: footer;
     height: 10vh;
     font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
 }
 
 footer a {
@@ -160,8 +166,6 @@ footer a {
 .about ul{
     font-size: 20px;
 }
-
-
 
 h1, h2, h3{
     color: #243757;

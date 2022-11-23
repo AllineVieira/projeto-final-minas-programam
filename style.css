@@ -26,7 +26,7 @@ background-color: #97C7DC;
 }
 
 .subhero, .sobrenos, .quote, .about, .contato {
-    margin: 20px auto 20px;
+    margin: 30px auto 30px;
 }
 
 .hero, .image1, .subhero, .image2, .sobrenos, .quote, .about, .image3, .contato {
@@ -52,7 +52,7 @@ background-color: #97C7DC;
 }
 
 .cabecalho p {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .cabecalho a {
@@ -60,7 +60,7 @@ text-decoration: none;
 text-align: right;
 color: #FFF;
 padding: 20px;
-font-size: 30px;
+font-size: 20px;
 }
 
 .hero, .subhero, .sobrenos, .quote, .about, .contato {
@@ -70,7 +70,7 @@ font-size: 30px;
 
 .hero{
     grid-area: hero;
-    margin: 150px auto 20px; 
+    margin: 120px auto 20px; 
     height: 80vh;
 }
 
@@ -78,7 +78,6 @@ font-size: 30px;
     text-align: left;
     padding-right: 80px;
     padding-left: 0;
-    
 }
 
 .image1, .image2, .image3 {
@@ -86,21 +85,30 @@ font-size: 30px;
 }
 
 .image1{
-    height:80vh;
+    height:81vh;
     object-position: 100% 100%;
 }
 
 .image2{
-    height: 60vh;
+    height: 61vh;
 }
 
 .image3{
-    height: 60vh;
+    height: 61vh;
 }
 
 .subhero{
     grid-area: subhero;
     height: 70vh;
+}
+
+.subhero1{
+    text-align: left;
+    padding: 10px;
+}
+
+.subhero2{
+    text-align: right;
 }
 
 .sobrenos{
@@ -124,7 +132,7 @@ font-size: 30px;
 .about{
     grid-area:about;
     height: 60vh;
-    text-align: center;
+    text-align: left;
 }
 
 .contato{
@@ -164,7 +172,8 @@ footer a {
 }
 
 .about ul{
-    font-size: 20px;
+    font-size: 25px;
+    text-align: left;
 }
 
 h1, h2, h3{
@@ -180,11 +189,11 @@ h2{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 p{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 button{
